@@ -7,3 +7,6 @@ https://github.com/Annie-Huang/tailwind-JIT
 
 PS C:\react\tailwind-JIT> npx tailwindcss -o ./build/styles.css
     << This output a much small file (535 lines) than the origin file from the tutorial
+
+PS C:\react\tailwind-JIT> npx tailwindcss -i .\src\styles.css -o .\build\styles.css
+    << confirm the .testing class is added.

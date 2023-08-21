@@ -533,3 +533,8 @@ video {
   --tw-backdrop-saturate:  ;
   --tw-backdrop-sepia:  ;
 }
+
+.testing {
+  background: #f2f2f2;
+  border: 2px solid #777;
+}
