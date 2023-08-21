@@ -1,0 +1,6 @@
+Tailwind Just in Time Tutorial (https://www.youtube.com/playlist?list=PL4cUxeGkcC9ht1OMQPhBVKAb2dVLhg-MJ)
+
+https://github.com/iamshaunjp/Tailwind-JIT-Tutorial     << different lessons has its own folder
+https://github.com/Annie-Huang/tailwind-JIT
+
+---------------------------------------------------------------------------------------
