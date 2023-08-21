@@ -10,3 +10,5 @@ PS C:\react\tailwind-JIT> npx tailwindcss -o ./build/styles.css
 
 PS C:\react\tailwind-JIT> npx tailwindcss -i .\src\styles.css -o .\build\styles.css
     << confirm the .testing class is added.
+
+PS C:\react\tailwind-JIT> npx tailwindcss -i .\src\styles.css -o .\build\styles.css --JIT --purge=".\*.html"
