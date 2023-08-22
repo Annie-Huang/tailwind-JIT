@@ -22,5 +22,9 @@ PS C:\react\tailwind-JIT> npx tailwindcss -i .\src\styles.css -o .\build\styles.
 
 
 Useful command:
+----------------------------------
 first-letter:font-bold
 first-letter:text-green-500
+
+list-disc marker:text-blue-600
+    Change marker styling.
