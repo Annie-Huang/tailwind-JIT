@@ -28,3 +28,6 @@ first-letter:text-green-500
 
 list-disc marker:text-blue-600
     Change marker styling.
+
+selection:bg-pink-500
+    Change high line background color when using mouse the high line the text
