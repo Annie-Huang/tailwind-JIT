@@ -38,3 +38,6 @@ first-line:font-semibold
 bg-[#f46225]
 text-[#fff6ca]
     Use specific color code
+
+text-[24px]
+    Use specify size value
