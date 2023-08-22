@@ -41,3 +41,11 @@ text-[#fff6ca]
 
 text-[24px]
     Use specify size value
+
+bg-[color:var(--primary)]
+    With this added into the input css file:
+    :root {
+      --primary: #1eccac;
+      --leadFont: 1.2rem;
+    }
+    the above will use the color code from custom property
