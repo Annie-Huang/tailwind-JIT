@@ -58,3 +58,18 @@ text-[length:var(--leadFont)]
     }
     the above will use the font size from custom property
     Anything to do with the size value: em, rem, px, etc, should use length keyword
+
+
+How to create a next.js app with Tailwind just in time:
+-----------------------------------------------------------------------
+e.g. an example is the C:\react\next-13-masterclass project
+
+
+PS C:\react> npx create-next-app -e with-tailwincss jit-next           << jit-next is the project name
+
+When you open the project, you will see the following have been installed:
+    "autoprefixer": "10.4.15",
+    "postcss": "8.4.28",
+    "tailwindcss": "3.3.3"
+And the postcss.config.js file and tailwind.config.js file are there
+
