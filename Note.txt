@@ -34,3 +34,7 @@ selection:bg-pink-500
 
 first-line:font-semibold
     Change the style of the first line of the <p>
+
+bg-[#f46225]
+text-[#fff6ca]
+    Use specific color code
