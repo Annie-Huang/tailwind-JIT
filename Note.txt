@@ -16,3 +16,6 @@ PS C:\react\tailwind-JIT> npx tailwindcss -i .\src\styles.css -o .\build\styles.
 PS C:\react\tailwind-JIT> npx tailwindcss -i .\src\styles.css -o .\build\styles.css --JIT --purge=".\*.html" --watch
 
 PS C:\react\tailwind-JIT> npx tailwindcss init
+
+Can use the below as the mode and purge list is defined in tailwind.config.js
+PS C:\react\tailwind-JIT> npx tailwindcss -i .\src\styles.css -o .\build\styles.css --watch
