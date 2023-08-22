@@ -49,3 +49,12 @@ bg-[color:var(--primary)]
       --leadFont: 1.2rem;
     }
     the above will use the color code from custom property
+
+text-[length:var(--leadFont)]
+    With this added into the input css file:
+    :root {
+      --primary: #1eccac;
+      --leadFont: 1.2rem;
+    }
+    the above will use the font size from custom property
+    Anything to do with the size value: em, rem, px, etc, should use length keyword

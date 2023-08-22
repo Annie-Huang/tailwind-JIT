@@ -605,6 +605,10 @@ video {
   font-size: 24px;
 }
 
+.text-\[length\:var\(--leadFont\)\] {
+  font-size: var(--leadFont);
+}
+
 .font-bold {
   font-weight: 700;
 }
