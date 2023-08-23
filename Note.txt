@@ -65,7 +65,7 @@ How to create a next.js app with Tailwind just in time:
 e.g. an example is the C:\react\next-13-masterclass project
 
 
-PS C:\react> npx create-next-app -e with-tailwincss jit-next           << jit-next is the project name
+PS C:\react> npx create-next-app -e with-tailwindcss jit-next           << jit-next is the project name
 
 When you open the project, you will see the following have been installed:
     "autoprefixer": "10.4.15",
@@ -73,3 +73,17 @@ When you open the project, you will see the following have been installed:
     "tailwindcss": "3.3.3"
 And the postcss.config.js file and tailwind.config.js file are there
 
+Run 'npm run dev'
+You can then test it by adding any tailwindcss and see if taking effect, e.g.
+    <h2 className='first-letter:text-[$40d860]'>Dashboard</h2>
+    <div className='first-letter:text-red-400'>Annie</div>
+
+If you want to create your own style:
+    Create styles/sttyles.css file. import the 3 tailwindcss facility:
+        @tailwind base;
+        @tailwind components;
+        @tailwind utilities;
+    And then change _app.js from
+        import 'tailwindcss/tailwind.css' to
+        import '../styles/styles.css'
+    And now you can add extra custom style into style.css, e.g. .test { background: #ccc }
