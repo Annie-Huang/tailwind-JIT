@@ -556,6 +556,10 @@ video {
   background-color: rgb(244 98 37 / var(--tw-bg-opacity));
 }
 
+.bg-\[color\:var\(--primary\)\] {
+  background-color: var(--primary);
+}
+
 .bg-blue-600 {
   --tw-bg-opacity: 1;
   background-color: rgb(37 99 235 / var(--tw-bg-opacity));
@@ -564,14 +568,6 @@ video {
 .bg-green-500 {
   --tw-bg-opacity: 1;
   background-color: rgb(34 197 94 / var(--tw-bg-opacity));
-}
-
-.bg-\[var\(--primary\)\] {
-  background-color: var(--primary);
-}
-
-.bg-\[color\:var\(--primary\)\] {
-  background-color: var(--primary);
 }
 
 .p-2 {
